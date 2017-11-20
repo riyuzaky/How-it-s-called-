@@ -12,6 +12,7 @@
 		0547E8781FC338180000CB9B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0547E8761FC338180000CB9B /* Main.storyboard */; };
 		0547E87A1FC338180000CB9B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0547E8791FC338180000CB9B /* Assets.xcassets */; };
 		0547E87D1FC338180000CB9B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0547E87B1FC338180000CB9B /* LaunchScreen.storyboard */; };
+		0547E88A1FC350F10000CB9B /* wordDB.txt in Resources */ = {isa = PBXBuildFile; fileRef = 0547E8891FC350F10000CB9B /* wordDB.txt */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		0547E8791FC338180000CB9B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0547E87C1FC338180000CB9B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0547E87E1FC338180000CB9B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0547E8891FC350F10000CB9B /* wordDB.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = wordDB.txt; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -92,6 +94,7 @@
 		0547E8881FC342E40000CB9B /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				0547E8891FC350F10000CB9B /* wordDB.txt */,
 			);
 			path = "Supporting Files";
 			sourceTree = "<group>";
@@ -157,6 +160,7 @@
 			files = (
 				0547E87D1FC338180000CB9B /* LaunchScreen.storyboard in Resources */,
 				0547E87A1FC338180000CB9B /* Assets.xcassets in Resources */,
+				0547E88A1FC350F10000CB9B /* wordDB.txt in Resources */,
 				0547E8781FC338180000CB9B /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
