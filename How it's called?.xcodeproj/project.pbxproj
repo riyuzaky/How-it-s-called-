@@ -54,14 +54,46 @@
 		0547E8711FC338180000CB9B /* How it's called? */ = {
 			isa = PBXGroup;
 			children = (
-				0547E8721FC338180000CB9B /* AppDelegate.swift */,
-				0547E8741FC338180000CB9B /* ViewController.swift */,
-				0547E8761FC338180000CB9B /* Main.storyboard */,
-				0547E8791FC338180000CB9B /* Assets.xcassets */,
+				0547E8841FC342570000CB9B /* Controller */,
+				0547E8851FC3426D0000CB9B /* Model */,
+				0547E8861FC3428F0000CB9B /* View */,
 				0547E87B1FC338180000CB9B /* LaunchScreen.storyboard */,
+				0547E8881FC342E40000CB9B /* Supporting Files */,
 				0547E87E1FC338180000CB9B /* Info.plist */,
 			);
 			path = "How it's called?";
+			sourceTree = "<group>";
+		};
+		0547E8841FC342570000CB9B /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				0547E8721FC338180000CB9B /* AppDelegate.swift */,
+				0547E8741FC338180000CB9B /* ViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		0547E8851FC3426D0000CB9B /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		0547E8861FC3428F0000CB9B /* View */ = {
+			isa = PBXGroup;
+			children = (
+				0547E8791FC338180000CB9B /* Assets.xcassets */,
+				0547E8761FC338180000CB9B /* Main.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		0547E8881FC342E40000CB9B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "Supporting Files";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */

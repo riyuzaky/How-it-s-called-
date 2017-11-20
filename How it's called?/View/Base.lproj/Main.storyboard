@@ -64,7 +64,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="570" y="132"/>
+            <point key="canvasLocation" x="836" y="132"/>
         </scene>
         <!--Detailed Favourite Screen-->
         <scene sceneID="pAS-2c-3G2">
@@ -95,7 +95,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="qhw-bf-j9r" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2117.5999999999999" y="131.78410794602701"/>
+            <point key="canvasLocation" x="1852" y="132"/>
         </scene>
         <!--Tab Bar Controller-->
         <scene sceneID="z2v-of-nRg">
@@ -113,7 +113,7 @@
                 </tabBarController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="S18-1t-OAN" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-226" y="132"/>
+            <point key="canvasLocation" x="323" y="132"/>
         </scene>
         <!--Item-->
         <scene sceneID="OZ0-TE-M1x">
@@ -132,7 +132,7 @@
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="eYK-yo-N9X" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1348" y="-635"/>
+            <point key="canvasLocation" x="1348" y="-763"/>
         </scene>
         <!--Избранное-->
         <scene sceneID="iKV-hd-Ji8">
