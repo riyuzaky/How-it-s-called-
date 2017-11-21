@@ -30,6 +30,7 @@ class ViewController: UIViewController {
         
         nextWord()
         
+        
         // Do any additional setup after loading the view, typically from a nib.
     }
     @IBAction func addFavouriteBtnPressed(_ sender: UIButton) {
