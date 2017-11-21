@@ -13,6 +13,10 @@
 		0547E87A1FC338180000CB9B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0547E8791FC338180000CB9B /* Assets.xcassets */; };
 		0547E87D1FC338180000CB9B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0547E87B1FC338180000CB9B /* LaunchScreen.storyboard */; };
 		0547E88A1FC350F10000CB9B /* wordDB.txt in Resources */ = {isa = PBXBuildFile; fileRef = 0547E8891FC350F10000CB9B /* wordDB.txt */; };
+		0547E88C1FC4465C0000CB9B /* WordList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0547E88B1FC4465C0000CB9B /* WordList.swift */; };
+		0547E88E1FC4468F0000CB9B /* WordAndDescription.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0547E88D1FC4468F0000CB9B /* WordAndDescription.swift */; };
+		0547E8921FC45B4D0000CB9B /* FavouriteVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0547E8911FC45B4D0000CB9B /* FavouriteVC.swift */; };
+		0547E8941FC45BE60000CB9B /* DetailedVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0547E8931FC45BE60000CB9B /* DetailedVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +28,10 @@
 		0547E87C1FC338180000CB9B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0547E87E1FC338180000CB9B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0547E8891FC350F10000CB9B /* wordDB.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = wordDB.txt; sourceTree = "<group>"; };
+		0547E88B1FC4465C0000CB9B /* WordList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WordList.swift; sourceTree = "<group>"; };
+		0547E88D1FC4468F0000CB9B /* WordAndDescription.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WordAndDescription.swift; sourceTree = "<group>"; };
+		0547E8911FC45B4D0000CB9B /* FavouriteVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavouriteVC.swift; sourceTree = "<group>"; };
+		0547E8931FC45BE60000CB9B /* DetailedVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailedVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,6 +79,8 @@
 			children = (
 				0547E8721FC338180000CB9B /* AppDelegate.swift */,
 				0547E8741FC338180000CB9B /* ViewController.swift */,
+				0547E8911FC45B4D0000CB9B /* FavouriteVC.swift */,
+				0547E8931FC45BE60000CB9B /* DetailedVC.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -78,6 +88,8 @@
 		0547E8851FC3426D0000CB9B /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				0547E88B1FC4465C0000CB9B /* WordList.swift */,
+				0547E88D1FC4468F0000CB9B /* WordAndDescription.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -173,7 +185,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				0547E8751FC338180000CB9B /* ViewController.swift in Sources */,
+				0547E8921FC45B4D0000CB9B /* FavouriteVC.swift in Sources */,
+				0547E8941FC45BE60000CB9B /* DetailedVC.swift in Sources */,
 				0547E8731FC338180000CB9B /* AppDelegate.swift in Sources */,
+				0547E88E1FC4468F0000CB9B /* WordAndDescription.swift in Sources */,
+				0547E88C1FC4465C0000CB9B /* WordList.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
