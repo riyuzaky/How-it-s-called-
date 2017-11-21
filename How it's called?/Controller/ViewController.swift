@@ -32,6 +32,23 @@ class ViewController: UIViewController {
         
         // Do any additional setup after loading the view, typically from a nib.
     }
+    @IBAction func addFavouriteBtnPressed(_ sender: UIButton) {
+        
+        if myArray.contains(wordNumber){
+            
+            print("такое есть!!!111")
+            
+        } else {
+            
+            myArray.append(wordNumber)
+            print("Добавлено!")
+            
+        }
+        
+        let defaults = UserDefaults.standard
+        defaults.set(myArray, forKey: "SavedStringArray")
+        
+    }
     
     
     @IBAction func nextWordBtn(_ sender: UIButton) {
