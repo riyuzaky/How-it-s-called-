@@ -10,8 +10,9 @@ import UIKit
 
 class FavouriteVC: UITableViewController {
     
-    
     var arrayOfIndexes = [Int]()
+    var arrayOfDataFromMainVC = [WordAndDescription]()
+    var arrayOfFavouriteWord = [String]()
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -19,6 +20,9 @@ class FavouriteVC: UITableViewController {
         let defaults = UserDefaults.standard
         arrayOfIndexes = defaults.object(forKey: "SavedStringArray") as? [Int] ?? [Int]()
         
+        
+        let myVC = storyboard?.instantiateViewController(withIdentifier: "MainVC") as! ViewController
+        arrayOfDataFromMainVC = myVC.getDataFromFile(fileName: "wordDB")!
 
         // Uncomment the following line to preserve selection between presentations
         // self.clearsSelectionOnViewWillAppear = false
@@ -27,11 +31,16 @@ class FavouriteVC: UITableViewController {
         // self.navigationItem.rightBarButtonItem = self.editButtonItem
     }
     
+    
     override func viewWillAppear(_ animated: Bool) {
         let defaults = UserDefaults.standard
         arrayOfIndexes = defaults.object(forKey: "SavedStringArray") as? [Int] ?? [Int]()
+        
+        arrayOfFavouriteWord = getTextForIndex(a: arrayOfDataFromMainVC, b: arrayOfIndexes)
+        
         super.viewWillAppear(animated)
         tableView.reloadData()
+        
         
     }
 
@@ -54,9 +63,20 @@ class FavouriteVC: UITableViewController {
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
 
         let cell = UITableViewCell(style: UITableViewCellStyle.default, reuseIdentifier: "cell")
-        cell.textLabel?.text = String(arrayOfIndexes[indexPath.row])
+        cell.textLabel?.text = arrayOfFavouriteWord[indexPath.row]
     
         return (cell)
+    }
+    
+    func getTextForIndex(a: [WordAndDescription], b: [Int]) -> [String] {
+        var out = [String]()
+        
+        for i in 0..<b.count {
+            
+            out.append(a[b[i]].wordText)
+        }
+        
+    return out
     }
     
     /*

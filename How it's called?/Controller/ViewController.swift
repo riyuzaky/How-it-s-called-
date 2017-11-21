@@ -60,7 +60,6 @@ class ViewController: UIViewController {
         
     }
     
-    
 
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
@@ -98,10 +97,10 @@ class ViewController: UIViewController {
             arrayOfDataFromFile.append(WordAndDescription(word: wordFromStringInArray[0], description: wordFromStringInArray[1]))
             
         }
+        
         return arrayOfDataFromFile
         
     }
-
 
 }
 
