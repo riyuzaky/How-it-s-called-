@@ -20,9 +20,8 @@ class FavouriteVC: UITableViewController {
         let defaults = UserDefaults.standard
         arrayOfIndexes = defaults.object(forKey: "SavedStringArray") as? [Int] ?? [Int]()
         
-        
-        let myVC = storyboard?.instantiateViewController(withIdentifier: "MainVC") as! ViewController
-        arrayOfDataFromMainVC = myVC.getDataFromFile(fileName: "wordDB")!
+        let myVC = self.tabBarController?.viewControllers![0] as! ViewController
+        arrayOfDataFromMainVC = myVC.allWords.list
 
         // Uncomment the following line to preserve selection between presentations
         // self.clearsSelectionOnViewWillAppear = false

@@ -173,7 +173,7 @@
                             <outlet property="delegate" destination="pYN-iV-Sb1" id="dtG-fL-OQR"/>
                         </connections>
                     </tableView>
-                    <tabBarItem key="tabBarItem" title="Избранное" id="Q5p-10-F4j"/>
+                    <tabBarItem key="tabBarItem" tag="1" title="Избранное" id="Q5p-10-F4j"/>
                     <navigationItem key="navigationItem" id="hdt-DK-349"/>
                     <connections>
                         <segue destination="M0Y-FL-Z86" kind="show" identifier="" id="Wen-bJ-LMw"/>
@@ -185,6 +185,6 @@
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="YHe-Ir-2Cl"/>
+        <segue reference="lys-RX-lMN"/>
     </inferredMetricsTieBreakers>
 </document>
