@@ -10,8 +10,14 @@ import UIKit
 
 class DetailedVC: UIViewController {
 
+    @IBOutlet weak var label: UILabel!
+    
+    var receivedData = ""
+    
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        print(receivedData)
 
         // Do any additional setup after loading the view.
     }

@@ -78,6 +78,23 @@ class FavouriteVC: UITableViewController {
     return out
     }
     
+    // method to run when table view cell is tapped
+    override func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        
+        // Segue to the second view controller
+        self.performSegue(withIdentifier: "mySegue", sender: self)
+    }
+    
+    // This function is called before the segue
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        
+        // get a reference to the second view controller
+        let secondViewController = segue.destination as! DetailedVC
+        
+        // set a variable in the second view controller with the data to pass
+        secondViewController.receivedData = "hello"
+    }
+    
     /*
     // Override to support conditional editing of the table view.
     override func tableView(_ tableView: UITableView, canEditRowAt indexPath: IndexPath) -> Bool {
