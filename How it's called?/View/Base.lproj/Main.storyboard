@@ -108,7 +108,8 @@
                         <viewLayoutGuide key="safeArea" id="fbl-E8-jyJ"/>
                     </view>
                     <connections>
-                        <outlet property="label" destination="hHg-7A-sKY" id="bEK-y7-8kb"/>
+                        <outlet property="descriptionLbl" destination="ayG-hb-Ca1" id="DR4-wB-mes"/>
+                        <outlet property="wordLbl" destination="hHg-7A-sKY" id="tN9-0t-7TU"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="qhw-bf-j9r" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -134,7 +135,7 @@
             </objects>
             <point key="canvasLocation" x="-102" y="132"/>
         </scene>
-        <!--FavouriteVC-->
+        <!--Избранное-->
         <scene sceneID="iKV-hd-Ji8">
             <objects>
                 <tableViewController storyboardIdentifier="FavouriteVC" id="pYN-iV-Sb1" customClass="FavouriteVC" customModule="How_it_s_called_" customModuleProvider="target" sceneMemberID="viewController">
@@ -157,7 +158,7 @@
                             <outlet property="delegate" destination="pYN-iV-Sb1" id="dtG-fL-OQR"/>
                         </connections>
                     </tableView>
-                    <navigationItem key="navigationItem" id="hdt-DK-349"/>
+                    <navigationItem key="navigationItem" title="Избранное" id="hdt-DK-349"/>
                     <connections>
                         <segue destination="M0Y-FL-Z86" kind="show" identifier="mySegue" id="Wen-bJ-LMw"/>
                     </connections>

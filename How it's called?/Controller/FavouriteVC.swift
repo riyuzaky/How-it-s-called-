@@ -13,6 +13,7 @@ class FavouriteVC: UITableViewController {
     var arrayOfIndexes = [Int]()
     var arrayOfDataFromMainVC = [WordAndDescription]()
     var arrayOfFavouriteWord = [String]()
+    var tempCell : Int = 0
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -82,7 +83,9 @@ class FavouriteVC: UITableViewController {
     override func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         
         // Segue to the second view controller
+        tempCell = arrayOfIndexes[indexPath.row]
         self.performSegue(withIdentifier: "mySegue", sender: self)
+        
     }
     
     // This function is called before the segue
@@ -90,9 +93,9 @@ class FavouriteVC: UITableViewController {
         
         // get a reference to the second view controller
         let secondViewController = segue.destination as! DetailedVC
-        
+        secondViewController.currentWordNumber = tempCell
         // set a variable in the second view controller with the data to pass
-        secondViewController.receivedData = "hello"
+        //secondViewController.receivedData = "hello"
     }
     
     /*

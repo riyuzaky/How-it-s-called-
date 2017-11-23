@@ -9,22 +9,47 @@
 import UIKit
 
 class DetailedVC: UIViewController {
-
-    @IBOutlet weak var label: UILabel!
     
-    var receivedData = ""
+    var testArray = [WordAndDescription]()
+    var currentWordNumber : Int = 0
+
+    
+    @IBOutlet weak var wordLbl: UILabel!
+    @IBOutlet weak var descriptionLbl: UILabel!
+    
+    //var receivedData = ""
     
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        print(receivedData)
+        currentWord()
+        print(currentWordNumber, "при загрузке")
+        //print(receivedData)
+        
 
         // Do any additional setup after loading the view.
+    }
+    
+    override func viewWillAppear(_ animated: Bool) {
+        
+        currentWord()
+        print(currentWordNumber, "при обновлении экрана")
     }
 
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
+    }
+    
+    func currentWord() {
+        
+        let myNewVC = tabBarController?.viewControllers![0] as! ViewController
+        let newFavouriteVC = self.navigationController?.viewControllers[0] as! FavouriteVC
+        
+        testArray = myNewVC.allWords.list
+        wordLbl.text = testArray[currentWordNumber].wordText
+        descriptionLbl.text = testArray[currentWordNumber].wordDescription
+        
     }
     
     
