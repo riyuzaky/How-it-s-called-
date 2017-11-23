@@ -106,15 +106,25 @@ class FavouriteVC: UITableViewController {
     }
     */
 
-    /*
+    /
     // Override to support editing the table view.
     override func tableView(_ tableView: UITableView, commit editingStyle: UITableViewCellEditingStyle, forRowAt indexPath: IndexPath) {
         if editingStyle == .delete {
             // Delete the row from the data source
-            tableView.deleteRows(at: [indexPath], with: .fade)
+//            tableView.deleteRows(at: [indexPath], with: .fade)
+//            let myVC = self.tabBarController?.viewControllers![0] as! ViewController
+//            myVC.myArray.remove(at: tempCell)
+//
+//            let defaults = UserDefaults.standard
+//            defaults.set(myVC.myArray, forKey: "SavedStringArray")
+//            arrayOfIndexes = defaults.object(forKey: "SavedStringArray") as? [Int] ?? [Int]()
+//
         } else if editingStyle == .insert {
             // Create a new instance of the appropriate class, insert it into the array, and add a new row to the table view
-        }    
+        }
+        //let defaults = UserDefaults.standard
+        
+        
     }
     */
 

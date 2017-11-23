@@ -23,7 +23,7 @@ class DetailedVC: UIViewController {
         super.viewDidLoad()
         
         currentWord()
-        print(currentWordNumber, "при загрузке")
+        
         //print(receivedData)
         
 
@@ -33,7 +33,7 @@ class DetailedVC: UIViewController {
     override func viewWillAppear(_ animated: Bool) {
         
         currentWord()
-        print(currentWordNumber, "при обновлении экрана")
+        
     }
 
     override func didReceiveMemoryWarning() {
