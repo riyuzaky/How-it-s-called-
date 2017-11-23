@@ -81,10 +81,10 @@
             </objects>
             <point key="canvasLocation" x="686" y="132"/>
         </scene>
-        <!--Detailed Favourite Screen-->
+        <!--DetailedVC-->
         <scene sceneID="pAS-2c-3G2">
             <objects>
-                <viewController storyboardIdentifier="DetailedVC" title="Detailed Favourite Screen" id="M0Y-FL-Z86" customClass="DetailedVC" customModule="How_it_s_called_" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="DetailedVC" id="M0Y-FL-Z86" customClass="DetailedVC" customModule="How_it_s_called_" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="rBO-uo-C9f">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
