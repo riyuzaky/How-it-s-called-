@@ -111,10 +111,14 @@ class FavouriteVC: UITableViewController {
     override func tableView(_ tableView: UITableView, commit editingStyle: UITableViewCellEditingStyle, forRowAt indexPath: IndexPath) {
         if editingStyle == .delete {
             // Delete the row from the data source
+            let myVC = self.tabBarController?.viewControllers![0] as! ViewController
+            myVC.myArray.remove(at: indexPath.row)
             arrayOfIndexes.remove(at: indexPath.row)
+            
             tableView.deleteRows(at: [indexPath], with: .fade)
             let defaults = UserDefaults.standard
             defaults.set(arrayOfIndexes, forKey: "SavedStringArray")
+            defaults.set(myVC.myArray, forKey: "SavedStringArray")
             defaults.synchronize()
             
         } else if editingStyle == .insert {
