@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0538AEA51FE1895E006EF20E /* BELLABOO.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0538AEA71FE1895E006EF20E /* BELLABOO.ttf */; };
 		0547E8731FC338180000CB9B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0547E8721FC338180000CB9B /* AppDelegate.swift */; };
 		0547E8751FC338180000CB9B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0547E8741FC338180000CB9B /* ViewController.swift */; };
 		0547E8781FC338180000CB9B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0547E8761FC338180000CB9B /* Main.storyboard */; };
@@ -20,6 +21,10 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0538AEA61FE1895E006EF20E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file; name = Base; path = Base.lproj/BELLABOO.ttf; sourceTree = "<group>"; };
+		0538AEA81FE189BB006EF20E /* ru */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ru; path = ru.lproj/Main.strings; sourceTree = "<group>"; };
+		0538AEA91FE189BB006EF20E /* ru */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ru; path = ru.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
+		0538AEAA1FE189BB006EF20E /* ru */ = {isa = PBXFileReference; lastKnownFileType = file; name = ru; path = ru.lproj/BELLABOO.ttf; sourceTree = "<group>"; };
 		0547E86F1FC338180000CB9B /* How it's called?.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "How it's called?.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		0547E8721FC338180000CB9B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		0547E8741FC338180000CB9B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -107,6 +112,7 @@
 			isa = PBXGroup;
 			children = (
 				0547E8891FC350F10000CB9B /* wordDB.txt */,
+				0538AEA71FE1895E006EF20E /* BELLABOO.ttf */,
 			);
 			path = "Supporting Files";
 			sourceTree = "<group>";
@@ -152,8 +158,8 @@
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
-				en,
 				Base,
+				ru,
 			);
 			mainGroup = 0547E8661FC338180000CB9B;
 			productRefGroup = 0547E8701FC338180000CB9B /* Products */;
@@ -173,6 +179,7 @@
 				0547E87D1FC338180000CB9B /* LaunchScreen.storyboard in Resources */,
 				0547E87A1FC338180000CB9B /* Assets.xcassets in Resources */,
 				0547E88A1FC350F10000CB9B /* wordDB.txt in Resources */,
+				0538AEA51FE1895E006EF20E /* BELLABOO.ttf in Resources */,
 				0547E8781FC338180000CB9B /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -196,10 +203,20 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
+		0538AEA71FE1895E006EF20E /* BELLABOO.ttf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0538AEA61FE1895E006EF20E /* Base */,
+				0538AEAA1FE189BB006EF20E /* ru */,
+			);
+			name = BELLABOO.ttf;
+			sourceTree = "<group>";
+		};
 		0547E8761FC338180000CB9B /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
 				0547E8771FC338180000CB9B /* Base */,
+				0538AEA81FE189BB006EF20E /* ru */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
@@ -208,6 +225,7 @@
 			isa = PBXVariantGroup;
 			children = (
 				0547E87C1FC338180000CB9B /* Base */,
+				0538AEA91FE189BB006EF20E /* ru */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -219,6 +237,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
@@ -263,7 +282,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -276,6 +295,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
@@ -314,7 +334,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";

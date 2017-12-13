@@ -1,0 +1,30 @@
+
+/* Class = "UIButton"; normalTitle = "Еще? Еще!"; ObjectID = "0fM-ww-K5a"; */
+"0fM-ww-K5a.normalTitle" = "Еще? Еще!";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "2lG-iK-YXf"; */
+"2lG-iK-YXf.text" = "Label";
+
+/* Class = "UIViewController"; title = "Main Screen"; ObjectID = "BYZ-38-t0r"; */
+"BYZ-38-t0r.title" = "Main Screen";
+
+/* Class = "UIButton"; normalTitle = "Add to Favourite"; ObjectID = "MFi-pz-tJU"; */
+"MFi-pz-tJU.normalTitle" = "Add to Favourite";
+
+/* Class = "UITabBarItem"; title = "Избранное"; ObjectID = "Q5p-10-F4j"; */
+"Q5p-10-F4j.title" = "Избранное";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "Y3t-CE-xjq"; */
+"Y3t-CE-xjq.text" = "Label";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "ayG-hb-Ca1"; */
+"ayG-hb-Ca1.text" = "Label";
+
+/* Class = "UITabBarItem"; title = "Словарь"; ObjectID = "eJm-wq-Qxr"; */
+"eJm-wq-Qxr.title" = "Словарь";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "hHg-7A-sKY"; */
+"hHg-7A-sKY.text" = "Label";
+
+/* Class = "UINavigationItem"; title = "Избранное"; ObjectID = "hdt-DK-349"; */
+"hdt-DK-349.title" = "Избранное";
