@@ -14,6 +14,9 @@
             <string>HelveticaNeue-Light</string>
             <string>HelveticaNeue-Thin</string>
         </array>
+        <array key="How it's called">
+            <string>BELLABOO</string>
+        </array>
     </customFonts>
     <scenes>
         <!--Main Screen-->
@@ -35,7 +38,7 @@
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Y3t-CE-xjq">
                                                 <rect key="frame" x="0.0" y="57" width="343" height="69"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                <fontDescription key="fontDescription" name="HelveticaNeue-Thin" family="Helvetica Neue" pointSize="25"/>
+                                                <fontDescription key="fontDescription" name="BELLABOO" family="BELLABOO" pointSize="25"/>
                                                 <color key="textColor" red="0.37055522200000002" green="0.37056469920000001" blue="0.37055957319999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
